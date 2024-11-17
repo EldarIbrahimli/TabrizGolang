@@ -4,7 +4,7 @@ import "fmt"
 
 func arraySum(arr [100]int, size int) {
 	sum := 0
-	for i := 0; i < len(arr); i++ {
+	for i := 0; i < size; i++ {
 		sum += arr[i]
 	}
 	fmt.Printf("Sum = %d\n", sum)
