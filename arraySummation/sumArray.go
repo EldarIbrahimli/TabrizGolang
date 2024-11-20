@@ -10,13 +10,11 @@ func arraySum(arr [100]int, size int) {
 	fmt.Printf("Sum = %d\n", sum)
 }
 func arrayPrint(arr [100]int, size int) {
-	fmt.Print("Your array: [")
+	fmt.Print("Your array: [ ")
 	for i := 0; i < size; i++ {
-		if i == size-1 {
-			fmt.Printf("%d", arr[i])
-		} else {
-			fmt.Printf("%d ", arr[i])
-		}
+
+		fmt.Printf("%d ", arr[i])
+
 	}
 	fmt.Println("]")
 }
