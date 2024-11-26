@@ -33,7 +33,7 @@ func sum(context *gin.Context) {
 	sum := num1 + num2
 
 	context.JSON(http.StatusOK, gin.H{
-		"result": sum,
+		"the result is": sum,
 	})
 }
 
